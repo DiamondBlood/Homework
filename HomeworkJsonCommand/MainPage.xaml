@@ -3,12 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HomeworkJsonCommand.MainPage">
 
-    <StackLayout BindableLayout.ItemsSource="{Binding User}">
+    <StackLayout BindableLayout.ItemsSource="{Binding _user}">
         <BindableLayout.ItemTemplate>
             <DataTemplate>
                 <StackLayout>
-                    <Label Text="{Binding userId}"/>
-                    <Label Text="{Binding id}"/>
                     <Label Text="{Binding title}"/>
                 </StackLayout>
             </DataTemplate>

@@ -37,7 +37,7 @@ namespace HomeworkJsonCommand
         {
             var content = await _Client.GetStringAsync(url);
             var root = JsonConvert.DeserializeObject<List<User>>(content);
-            User = new ObservableCollection<User>(root);
+            _user = new ObservableCollection<User>(root);
         }
 
         public int SomeInt
