@@ -1,0 +1,15 @@
+C:\Users\almaz\Desktop\Homework\HomeworkJsonCommand\HomeworkJsonCommand\bin\Debug\netstandard2.0\HomeworkJsonCommand.deps.json
+C:\Users\almaz\Desktop\Homework\HomeworkJsonCommand\HomeworkJsonCommand\bin\Debug\netstandard2.0\HomeworkJsonCommand.dll
+C:\Users\almaz\Desktop\Homework\HomeworkJsonCommand\HomeworkJsonCommand\bin\Debug\netstandard2.0\ref\HomeworkJsonCommand.dll
+C:\Users\almaz\Desktop\Homework\HomeworkJsonCommand\HomeworkJsonCommand\bin\Debug\netstandard2.0\HomeworkJsonCommand.pdb
+C:\Users\almaz\Desktop\Homework\HomeworkJsonCommand\HomeworkJsonCommand\obj\Debug\netstandard2.0\HomeworkJsonCommand.csproj.AssemblyReference.cache
+C:\Users\almaz\Desktop\Homework\HomeworkJsonCommand\HomeworkJsonCommand\obj\Debug\netstandard2.0\HomeworkJsonCommand.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\almaz\Desktop\Homework\HomeworkJsonCommand\HomeworkJsonCommand\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\almaz\Desktop\Homework\HomeworkJsonCommand\HomeworkJsonCommand\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\almaz\Desktop\Homework\HomeworkJsonCommand\HomeworkJsonCommand\obj\Debug\netstandard2.0\HomeworkJsonCommand.AssemblyInfoInputs.cache
+C:\Users\almaz\Desktop\Homework\HomeworkJsonCommand\HomeworkJsonCommand\obj\Debug\netstandard2.0\HomeworkJsonCommand.AssemblyInfo.cs
+C:\Users\almaz\Desktop\Homework\HomeworkJsonCommand\HomeworkJsonCommand\obj\Debug\netstandard2.0\HomeworkJsonCommand.csproj.CoreCompileInputs.cache
+C:\Users\almaz\Desktop\Homework\HomeworkJsonCommand\HomeworkJsonCommand\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\almaz\Desktop\Homework\HomeworkJsonCommand\HomeworkJsonCommand\obj\Debug\netstandard2.0\HomeworkJsonCommand.dll
+C:\Users\almaz\Desktop\Homework\HomeworkJsonCommand\HomeworkJsonCommand\obj\Debug\netstandard2.0\ref\HomeworkJsonCommand.dll
+C:\Users\almaz\Desktop\Homework\HomeworkJsonCommand\HomeworkJsonCommand\obj\Debug\netstandard2.0\HomeworkJsonCommand.pdb

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HomeworkJsonCommand.MainPage">
+
+    <StackLayout BindableLayout.ItemsSource="{Binding User}">
+        <BindableLayout.ItemTemplate>
+            <DataTemplate>
+                <StackLayout>
+                    <Label Text="{Binding userId}"/>
+                    <Label Text="{Binding id}"/>
+                    <Label Text="{Binding title}"/>
+                </StackLayout>
+            </DataTemplate>
+        </BindableLayout.ItemTemplate>
+        <Button Text="LoadData" Command="{Binding LoadData}" VerticalOptions="CenterAndExpand"/>
+        <Label Text="{Binding SomeInt}"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="50">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding SomeCommand}"/>
+            </Label.GestureRecognizers>
+        </Label>
+        
+    </StackLayout>
+</ContentPage>
