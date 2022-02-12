@@ -2,24 +2,35 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HomeworkJsonCommand.MainPage">
-
-    <StackLayout BindableLayout.ItemsSource="{Binding _user}">
+    <ScrollView BackgroundColor="Black">
+    <StackLayout BindableLayout.ItemsSource="{Binding _root}">
+       
         <BindableLayout.ItemTemplate>
             <DataTemplate>
-                <StackLayout>
-                    <Label Text="{Binding title}"/>
-                </StackLayout>
+                    <StackLayout BackgroundColor="#020324"
+>
+                        <Label Text="Имя пользователя и email адрес:" FontSize="Large"/>
+                        <Label Text="{Binding name}"/>
+                        <Label Text="{Binding username}"/>
+                        <Label Text="{Binding email}"/>
+                        <Label Text="Адрес:" FontSize="Large"/>
+                        <Label Text="{Binding address.street}"/>
+                        <Label Text="{Binding address.suite}"/>
+                        <Label Text="{Binding address.city}"/>
+                        
+                    </StackLayout>
             </DataTemplate>
         </BindableLayout.ItemTemplate>
         <Button Text="LoadData" Command="{Binding LoadData}" VerticalOptions="CenterAndExpand"/>
-        <Label Text="{Binding SomeInt}"
+        <Label Text="{Binding Value}"
                    VerticalOptions="CenterAndExpand"
                    HorizontalOptions="CenterAndExpand"
                    FontSize="50">
             <Label.GestureRecognizers>
-                <TapGestureRecognizer Command="{Binding SomeCommand}"/>
+                <TapGestureRecognizer Command="{Binding ChangeCommand}"/>
             </Label.GestureRecognizers>
         </Label>
         
     </StackLayout>
+    </ScrollView>
 </ContentPage>

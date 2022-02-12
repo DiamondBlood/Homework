@@ -3,6 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HomeworkJsonCommand.App">
     <Application.Resources>
-
+        <Style TargetType="Button">
+            <Setter Property="FontSize"
+                    Value="Medium" />
+            <Setter Property="BackgroundColor"
+                    Value="Black" />
+            <Setter Property="TextColor"
+                    Value="White" />
+            <Setter Property="CornerRadius"
+                    Value="5" />
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="TextColor"
+                    Value="White"/>
+            </Style>
     </Application.Resources>
 </Application>

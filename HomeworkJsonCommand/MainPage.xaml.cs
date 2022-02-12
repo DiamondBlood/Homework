@@ -30,7 +30,7 @@ namespace HomeworkJsonCommand
         {
             
             base.OnAppearing();
-            await _vm.ChangeInt();
+            await _vm.Changevalue();
         }
     }
 }
